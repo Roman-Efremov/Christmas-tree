@@ -7,6 +7,12 @@ router.get('/', (req, res) => {
    var adress = [ 
        { "city": faker.address.city(), 
   	   	 "street": faker.address.streetAddress()
+  	   },
+       { "city": faker.address.city(), 
+  	   	 "street": faker.address.streetAddress()
+  	   },
+       { "city": faker.address.city(), 
+  	   	 "street": faker.address.streetAddress()
   	   }
   	];
 });
